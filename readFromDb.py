@@ -3,7 +3,7 @@
 import MySQLdb
 
 # Open database connection
-db = MySQLdb.connect("localhost","root","r00t","aocEatsNew" )
+db = MySQLdb.connect("localhost","userName","password","databaseName" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
